@@ -9,6 +9,7 @@ function MainPage(){
 
     return (
         <div className='mainbody'>
+            <i className="fa-solid fa-forward"></i>
             <MainHeaderComponent />
             <BigSliderComponent />
         </div>

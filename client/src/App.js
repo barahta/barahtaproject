@@ -1,6 +1,9 @@
 
 import './App.css';
 import './assets/styles/main.scss';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCaretRight } from '@fortawesome/free-solid-svg-icons';
+import '@fortawesome/fontawesome-svg-core/styles.css';
 import React, {useContext, useEffect} from "react"
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom"
 import { DataProvider } from './context/DataContext';

@@ -1,7 +1,7 @@
 import React, {useState, useEffect, useContext} from 'react';
 import {Link,useLocation} from "react-router-dom";
-import {observer} from "mobx-react-lite";
 import style from './Biglider.module.scss'
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 function BigSliderComponent(){
 
@@ -74,7 +74,7 @@ function BigSliderComponent(){
                 )}
 
             </div>
-            <div className={style.btnnext} onClick={(e)=>{nextSlide(e.target.parentNode)}}><i className="fa-solid fa-caret-right"/></div>
+            <div className={style.btnnext} onClick={(e)=>{nextSlide(e.target.parentNode)}}></div>
         </div>
     )
 }
